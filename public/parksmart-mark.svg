@@ -1,0 +1,25 @@
+<svg width="160" height="160" viewBox="0 0 160 160" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="ParkSmart icon">
+  <defs>
+    <linearGradient id="teal" x1="0" x2="1" y1="0" y2="1">
+      <stop stop-color="#16D4C4"/>
+      <stop offset="1" stop-color="#059E9A"/>
+    </linearGradient>
+    <linearGradient id="navy" x1="0" x2="1" y1="0" y2="1">
+      <stop stop-color="#0C2F58"/>
+      <stop offset="1" stop-color="#061A33"/>
+    </linearGradient>
+  </defs>
+  <rect x="16" y="64" width="23" height="74" rx="5" fill="url(#navy)"/>
+  <rect x="23" y="75" width="11" height="8" rx="3" fill="url(#teal)"/>
+  <rect x="37" y="78" width="69" height="7" rx="2" fill="#0A2442"/>
+  <path d="M47 85L53 78H60L54 85H47ZM65 85L71 78H78L72 85H65ZM83 85L89 78H96L90 85H83Z" fill="url(#teal)"/>
+  <path d="M92 141L79 118H69L55 141H92Z" fill="url(#navy)"/>
+  <path d="M62 127L68 107C70 101 75 97 81 97H95C101 97 106 101 108 107L114 127H62Z" fill="url(#navy)"/>
+  <path d="M74 107C77 102 80 100 88 100C96 100 99 102 102 107H74Z" fill="white"/>
+  <rect x="78" y="119" width="22" height="5" rx="2.5" fill="white"/>
+  <path d="M103 40H132C147 40 155 50 155 63C155 77 146 86 132 86H119V138H103V40ZM131 71C137 71 141 68 141 63C141 58 137 55 131 55H119V71H131Z" fill="url(#navy)"/>
+  <circle cx="101" cy="56" r="7" fill="url(#teal)"/>
+  <path d="M85 56C85 47 92 40 101 40" stroke="url(#teal)" stroke-width="8" stroke-linecap="round"/>
+  <path d="M72 56C72 40 85 27 101 27" stroke="url(#teal)" stroke-width="8" stroke-linecap="round"/>
+  <path d="M59 56C59 33 78 14 101 14" stroke="url(#teal)" stroke-width="8" stroke-linecap="round"/>
+</svg>

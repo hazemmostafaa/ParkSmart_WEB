@@ -1,0 +1,42 @@
+<svg width="980" height="300" viewBox="0 0 980 300" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">ParkSmart</title>
+  <desc id="desc">ParkSmart logo with parking gate, car, wireless signal, and wordmark.</desc>
+  <defs>
+    <linearGradient id="teal" x1="0" x2="1" y1="0" y2="1">
+      <stop stop-color="#16D4C4"/>
+      <stop offset="1" stop-color="#059E9A"/>
+    </linearGradient>
+    <linearGradient id="navy" x1="0" x2="1" y1="0" y2="1">
+      <stop stop-color="#0C2F58"/>
+      <stop offset="1" stop-color="#061A33"/>
+    </linearGradient>
+    <filter id="soft" x="-10%" y="-15%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="8" stdDeviation="8" flood-color="#061A33" flood-opacity=".14"/>
+    </filter>
+  </defs>
+  <g filter="url(#soft)">
+    <rect x="42" y="173" width="46" height="132" rx="8" fill="url(#navy)"/>
+    <rect x="53" y="191" width="24" height="14" rx="4" fill="url(#teal)"/>
+    <rect x="84" y="196" width="145" height="12" rx="2" fill="#0A2442"/>
+    <path d="M104 208L115 196H127L116 208H104ZM137 208L148 196H160L149 208H137ZM170 208L181 196H193L182 208H170Z" fill="url(#teal)"/>
+    <path d="M203 302L230 255H250L221 302H203Z" fill="url(#teal)"/>
+    <path d="M332 302L306 255H286L314 302H332Z" fill="url(#teal)"/>
+    <path d="M210 291L224 245C228 232 239 223 253 223H282C296 223 308 232 312 245L326 291H210Z" fill="url(#navy)"/>
+    <path d="M232 244C238 232 245 229 266 229C287 229 294 232 300 244H232Z" fill="white"/>
+    <rect x="242" y="269" width="52" height="10" rx="5" fill="white"/>
+    <path d="M222 258C232 259 240 262 243 267C233 267 224 265 218 262C215 260 217 257 222 258Z" fill="white"/>
+    <path d="M312 258C302 259 294 262 291 267C301 267 310 265 316 262C319 260 317 257 312 258Z" fill="white"/>
+    <path d="M206 80H294C339 80 370 109 370 150C370 191 339 219 294 219H254V303H206V80ZM291 173C310 173 324 164 324 148C324 132 310 123 291 123H254V173H291Z" fill="url(#navy)"/>
+    <circle cx="208" cy="125" r="13" fill="url(#teal)"/>
+    <path d="M177 126C177 109 191 95 208 95" stroke="url(#teal)" stroke-width="14" stroke-linecap="round"/>
+    <path d="M151 126C151 95 176 70 207 70" stroke="url(#teal)" stroke-width="14" stroke-linecap="round"/>
+    <path d="M125 126C125 80 162 43 208 43" stroke="url(#teal)" stroke-width="14" stroke-linecap="round"/>
+  </g>
+  <g>
+    <text x="420" y="165" font-family="Inter, Arial, sans-serif" font-size="88" font-weight="800" fill="#071F3D">Park</text>
+    <text x="615" y="165" font-family="Inter, Arial, sans-serif" font-size="88" font-weight="800" fill="url(#teal)">Smart</text>
+    <rect x="420" y="214" width="58" height="5" rx="2.5" fill="url(#teal)"/>
+    <text x="492" y="228" font-family="Inter, Arial, sans-serif" font-size="25" font-weight="700" letter-spacing="7" fill="#071F3D">SMARTER PARKING. BETTER CITIES.</text>
+    <rect x="930" y="214" width="23" height="5" rx="2.5" fill="url(#teal)"/>
+  </g>
+</svg>
