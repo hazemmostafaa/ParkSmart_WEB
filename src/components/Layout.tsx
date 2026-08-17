@@ -26,7 +26,7 @@ export const Layout = () => (
   <Box className="app-layout">
     <aside className="sidebar">
       <div className="sidebar-logo">
-        <img src="/parksmart-logo.svg" alt="ParkSmart" />
+        <img src={`${import.meta.env.BASE_URL}parksmart-logo.svg`} alt="ParkSmart" />
       </div>
       <div className="demo-pill">SMART PARKING IoT - DEMO</div>
       <Typography variant="caption" className="demo-note">
@@ -45,7 +45,11 @@ export const Layout = () => (
       <AppBar position="sticky" className="topbar" elevation={0}>
         <Toolbar>
           <Stack direction="row" alignItems="center" spacing={1.5} sx={{ flexGrow: 1, minWidth: 0 }}>
-            <img src="/parksmart-mark.svg" alt="" className="topbar-mark" />
+           <img
+  src={`${import.meta.env.BASE_URL}parksmart-logo.svg`}
+  alt="ParkSmart"
+  className="topbar-mark"
+/>
             <Box sx={{ minWidth: 0 }}>
               <Typography variant="h6" noWrap>
                 Parking Operations - Healthy
