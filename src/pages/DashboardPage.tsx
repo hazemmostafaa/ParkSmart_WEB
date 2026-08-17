@@ -44,7 +44,11 @@ export const DashboardPage = () => {
     <Stack spacing={3}>
       <section className="dashboard-hero">
         <Stack spacing={2} sx={{ maxWidth: 820 }}>
-          <img src="/parksmart-logo.svg" alt="ParkSmart" className="hero-logo" />
+          <img
+  src={`${import.meta.env.BASE_URL}parksmart-logo.svg`}
+  alt="ParkSmart"
+  className="hero-logo"
+/>
           <Typography variant="h3">Smart Parking IoT Control Center</Typography>
           <Typography variant="h6" color="text.secondary">
             Real-time supervisor view for occupancy, sensor health, payments, maintenance, and active events.
